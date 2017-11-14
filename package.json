@@ -1,6 +1,6 @@
 {
   "name": "wus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Denmark Dionisio",
   "description": "A simple hapijs websocket server plugin. Uses ws.",
   "keywords": [
