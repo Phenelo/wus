@@ -1,0 +1,31 @@
+{
+  "name": "wus",
+  "version": "0.1.0",
+  "author": "Denmark Dionisio",
+  "description": "A simple hapijs websocket server plugin. Uses ws.",
+  "keywords": [
+    "hapi",
+    "ws",
+    "wus"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/Phenelo/wus",
+  "bugs": "https://github.com/Phenelo/wus/issues",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "lab -c -v -L -a code"
+  },
+  "dependencies": {
+    "ws": "3.3.x"
+  },
+  "devDependencies": {
+    "hapi": "16.4.x",
+    "code": "4.1.x",
+    "lab": "13.1.x",
+    "proxyquire": "1.8.x",
+    "coveralls": "2.13.x"
+  }
+}
